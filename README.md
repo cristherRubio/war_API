@@ -7,7 +7,7 @@ https://www.kaggle.com/datasets/willianoliveiragibin/fatalities-in-the-israeli-p
   The situation is undeniably saddening for any human, and it's important to maintain objectivity and sensitivity when interacting with such data.
 
 ## Objectives
-The primary objective of this project is to gain practical experience in the development and deployment process with a professional approach, guided by a mentor ([Omar Moreno](https://www.linkedin.com/in/omar-eduardo/)). 
+The primary objective of this project is to gain practical experience in the development and deployment process with a professional approach, guided by a mentor ([Omar Moreno](https://github.com/Arcont01)). 
 
 Learning objectives:
 1. Utilizing GitHub and Docker for collaborative development.
