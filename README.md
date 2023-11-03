@@ -12,8 +12,9 @@ The primary objective of this project is to gain practical experience in the dev
 Learning objectives:
 1. Utilizing GitHub and Docker for collaborative development.
 2. Proficiency in Python and Django framework for backend development.
-3. Creating APIs with a focus on authentication.
-4. Deployment on a server using Docker.
+3. Database (SQL) management and migration.
+4. Creating APIs with a focus on authentication.
+5. Deployment on a server using Docker.
 
 ## Resources
 To achieve these objectives, the project will make use of the following resources and technologies:
@@ -31,6 +32,7 @@ To achieve these objectives, the project will make use of the following resource
 - ...
 
 ## TODO:
+- Define SQL dialect
 - Create venv
 - Explore data:
   - Data types
