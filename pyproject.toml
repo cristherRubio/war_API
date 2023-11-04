@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "war_api"
+version = "0.1.0"
+description = ""
+authors = ["Omar <c.j_omar@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "^4.2.7"
+django-environ = "^0.11.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
