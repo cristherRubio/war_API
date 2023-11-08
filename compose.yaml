@@ -9,11 +9,11 @@ services:
     ports:
       - 8000:8000
     depends_on:
-      db:
+      mysql:
         condition: service_healthy
     networks:
       - default
-  db:
+  mysql:
     image: mysql:8.2
     restart: always
     command: mysqld --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
@@ -36,12 +36,14 @@ services:
     networks:
       - default
   adminer:
-    image: adminer
+    image: adminer:4.8.1
     restart: always
+    environment:
+      - ADMINER_DESIGN=dracula
     ports:
         - 8080:8080
     depends_on:
-      db:
+      mysql:
         condition: service_healthy
     networks:
       - default
