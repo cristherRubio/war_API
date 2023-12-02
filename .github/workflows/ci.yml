@@ -33,6 +33,6 @@ jobs:
           poetry config virtualenvs.create false
           poetry install --no-interaction
       - name: Testing
-        run: pytest
+        run: poetry run pytest
 
       
